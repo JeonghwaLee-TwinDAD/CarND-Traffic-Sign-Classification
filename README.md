@@ -22,11 +22,11 @@ In this project, you will use what you've learned about deep neural networks and
 
 * Randomly choose six images from training set and display them, along with their labels
 
-![png](output_15_0.png)
+![png](./images/output_15_0.png)
 
 * Display histogram to show class/label distribution across training data
 
-![png](output_17_0.png)
+![png](./images/output_17_0.png)
 
 * Remark:
 
@@ -41,7 +41,7 @@ In this project, you will use what you've learned about deep neural networks and
 * Grayscale images
 * Data augmentation
 
-![png](output_46_0.png)
+![png](./images/output_46_0.png)
 
 * Remark : 
     
@@ -51,7 +51,7 @@ In this project, you will use what you've learned about deep neural networks and
 #### 3-2 Model Architecture (Modified LeNet)
     adapted from Sermanet/LeCunn traffic sign classification journal article
 
-![png](MLeNet.png)
+![png](./images/MLeNet.png)
 
 * Modified LeNet Model Architecture.
 
@@ -105,7 +105,7 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 
 * Predict the Sign Type for Each Image
 
-![png](output_70_1.png)
+![png](./images/output_70_1.png)
 
     File name: warning                   Predicted name: Roundabout mandatory
     File name: road_work                 Predicted name: Double curve
@@ -129,7 +129,7 @@ with tf.Session() as sess:
     my_softmax_logits = sess.run(softmax_logits, feed_dict={x: X_img_test, keep_prob: 1.0})
     my_top_k = sess.run(top_k, feed_dict={x: X_img_test, keep_prob: 1.})
 ```
-![png](output_80_1.png)
+![png](./images/output_80_1.png)
     
     The accuracy with softmax probability is still for these 5 new images: 0.60 (60%)
 
