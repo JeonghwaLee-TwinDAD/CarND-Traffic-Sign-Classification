@@ -87,15 +87,14 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
     5. sigma: 0.1
     6. dropout keep probability: 0.5
 
-* Train accuracy    
-
-    Epoch 1 -- Train acc.: 0.9025, Validation acc.: 0.8515, Elapsed time: 4.13 sec
-    Epoch 10 -- Train acc.: 0.9983, Validation acc.: 0.9420, Elapsed time: 35.08 sec
-    Epoch 20 -- Train acc.: 0.9997, Validation acc.: 0.9605, Elapsed time: 40.48 sec
-    Epoch 30 -- Train acc.: 0.9998, Validation acc.: 0.9603, Elapsed time: 38.94 sec
-    Epoch 40 -- Train acc.: 1.0000, Validation acc.: 0.9578, Elapsed time: 38.94 sec
-    Epoch 50 -- Train acc.: 1.0000, Validation acc.: 0.9603, Elapsed time: 39.49 sec
-    Epoch 60 -- Train acc.: 1.0000, Validation acc.: 0.9615, Elapsed time: 39.00 sec
+* Train accuracy
+    * Epoch 1 -- Train acc.: 0.9025, Validation acc.: 0.8515, Elapsed time: 4.13 sec
+    * Epoch 10 -- Train acc.: 0.9983, Validation acc.: 0.9420, Elapsed time: 35.08 sec
+    * Epoch 20 -- Train acc.: 0.9997, Validation acc.: 0.9605, Elapsed time: 40.48 sec
+    * Epoch 30 -- Train acc.: 0.9998, Validation acc.: 0.9603, Elapsed time: 38.94 sec
+    * Epoch 40 -- Train acc.: 1.0000, Validation acc.: 0.9578, Elapsed time: 38.94 sec
+    * Epoch 50 -- Train acc.: 1.0000, Validation acc.: 0.9603, Elapsed time: 39.49 sec
+    * Epoch 60 -- Train acc.: 1.0000, Validation acc.: 0.9615, Elapsed time: 39.00 sec
 
 *  After all, the test set accuracy is **95%**
 
